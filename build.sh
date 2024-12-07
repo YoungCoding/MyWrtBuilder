@@ -24,8 +24,8 @@ PACKAGES="$PACKAGES luci-i18n-statistics-zh-cn"
 
 # OpenClash 代理
 PACKAGES="$PACKAGES luci-app-openclash"
-# Passwall 代理
-PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
+# Passwall homeproxy代理
+PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn luci-i18n-homeproxy-zh-cn"
 # frp 和 nps 内网穿透
 PACKAGES="$PACKAGES luci-i18n-nps-zh-cn luci-i18n-frpc-zh-cn"
 
@@ -47,9 +47,14 @@ PACKAGES="$PACKAGES luci-i18n-qbittorrent-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
 # FTP 服务器
 PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn"
-
+# alist网盘
+PACKAGES="$PACKAGES luci-i18n-alist-zh-cn"
 # Docker 组件
-PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn luci-i18n-docker-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn luci-i18n-docker-zh-cn"
+
+# 多媒体
+# dlna网盘、解锁网易云音乐 
+PACKAGES="$PACKAGES luci-i18n-minidlna-zh-cn luci-app-unblockneteasemusic"
 
 # VPN 类
 
@@ -70,8 +75,11 @@ PACKAGES="$PACKAGES luci-i18n-nlbwmon-zh-cn"
 # 界面翻译补全
 PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn"
 
+# 其他
+PACKAGES="$PACKAGES luci-i18n-rclone-zh-cn luci-i18n-udpxy-zh-cn luci-i18n-vlmcsd-zh-cn luci-i18n-wol-zh-cn luci-i18n-adbyby-plus-zh-cn luci-i18n-ddns-go-zh-cn luci-i18n-upnp-zh-cn"
+
 # Packages 文件夹下的 ipk 包
-PACKAGES="$PACKAGES luci-i18n-wrtbwmon-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-wrtbwmon-zh-cn luci-i18n-lucky-zh-cn luci-i18n-ddns-go-zh-cn"
 
 # 一些自己需要的内核组件
 PACKAGES="$PACKAGES kmod-usb-printer kmod-lp"
@@ -81,7 +89,7 @@ PACKAGES="$PACKAGES kmod-usb-printer kmod-lp"
 # zsh 终端
 PACKAGES="$PACKAGES zsh"
 # Vim 完整版，带语法高亮
-PACKAGES="$PACKAGES vim-fuller"
+PACKAGES="$PACKAGES vim-full"
 # X/Y/ZMODEM 文件传输
 PACKAGES="$PACKAGES lrzsz"
 # OpenSSH
