@@ -11,3 +11,12 @@ https://github.com/rufengsuixing/luci-app-adguardhome/releases/download/1.8-9/lu
 https://github.com/sirpdboy/luci-app-ddns-go/releases/download/v6.7.0/ddns-go_6.7.0-1_x86_64.ipk
 https://github.com/sirpdboy/luci-app-ddns-go/releases/download/v6.7.0/luci-app-ddns-go_1.4.5_all.ipk
 https://github.com/sirpdboy/luci-app-ddns-go/releases/download/v6.7.0/luci-i18n-ddns-go-zh-cn_git-24.100.44971-c6c0236_all.ipk
+
+https://github.com/sirpdboy/luci-app-advanced/releases/download/v1.2.0/luci-app-advanced_1.20-r20220218_all.ipk
+https://github.com/sirpdboy/luci-app-parentcontrol/releases/download/V1.5/luci-app-parentcontrol_1.5-20230115_all.ipk
+
+https://github.com/4IceG/luci-app-timecontrol/releases/download/1.1/luci-app-timecontrol_1.1_all.ipk
+https://github.com/4IceG/luci-app-timecontrol/releases/download/1.1/luci-i18n-timecontrol-pl_unknown_all.ipk
+
+https://github.com/sirpdboy/luci-app-autotimeset/releases/download/v2.0.3/luci-app-autotimeset_2.0.3-20230823_all.ipk
+https://github.com/sirpdboy/luci-app-autotimeset/releases/download/v2.0.3/luci-i18n-autotimeset-zh-cn_2.0.3-20230823_all.ipk
