@@ -79,7 +79,8 @@ PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn luci-i18n-base-zh-cn luci-i18n-firewall
 PACKAGES="$PACKAGES luci-i18n-rclone-zh-cn luci-i18n-udpxy-zh-cn luci-i18n-vlmcsd-zh-cn luci-i18n-wol-zh-cn luci-i18n-adbyby-plus-zh-cn luci-i18n-ddns-go-zh-cn luci-i18n-upnp-zh-cn luci-app-timewol luci-i18n-cifs-zh-cn"
 
 # Packages 文件夹下的 ipk 包
-PACKAGES="$PACKAGES luci-i18n-wrtbwmon-zh-cn luci-i18n-lucky-zh-cn luci-i18n-ddns-go-zh-cn luci-app-advanced luci-app-parentcontrol luci-app-timecontrol luci-i18n-timecontrol-pl luci-i18n-autotimeset-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-wrtbwmon-zh-cn luci-i18n-lucky-zh-cn luci-i18n-ddns-go-zh-cn luci-app-advanced luci-app-timecontrol luci-i18n-timecontrol-pl luci-i18n-autotimeset-zh-cn"
+# PACKAGES="$PACKAGES luci-app-parentcontrol"
 
 # 一些自己需要的内核组件
 PACKAGES="$PACKAGES kmod-usb-printer kmod-lp"
